@@ -6,6 +6,15 @@
     <RootNamespace>hello_dotnet</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- <PublishAot>true</PublishAot> -->
+
+    <!-- <PublishTrimmed>true</PublishTrimmed> -->
+    <!-- <PublishSelfContained>true</PublishSelfContained> -->
+    <!-- <ContainerFamily>jammy-chiseled</ContainerFamily> -->
+    <!-- <ContainerRepository>hello-chiseled-aot</ContainerRepository> -->
+    <!-- <ContainerBaseImage>mcr.microsoft.com/dotnet/nightly/runtime-deps:8.0-jammy-chiseled-aot</ContainerBaseImage> -->
+
   </PropertyGroup>
 
   <ItemGroup>
